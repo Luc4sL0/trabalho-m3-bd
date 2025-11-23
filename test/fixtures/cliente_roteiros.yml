@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  data_compra: 2025-11-23 14:11:25
+  cliente: one
+  roteiro: one
+
+two:
+  data_compra: 2025-11-23 14:11:25
+  cliente: two
+  roteiro: two
