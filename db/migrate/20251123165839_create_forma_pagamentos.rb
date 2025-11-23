@@ -7,3 +7,10 @@ class CreateFormaPagamentos < ActiveRecord::Migration[7.2]
     end
   end
 end
+
+#CREATE TABLE "forma_pagamentos" (
+#  "id" BIGSERIAL PRIMARY KEY,
+#  "tipo" VARCHAR(20) NOT NULL,
+#  "created_at" TIMESTAMP(6) NOT NULL,
+#  "updated_at" TIMESTAMP(6) NOT NULL
+#);

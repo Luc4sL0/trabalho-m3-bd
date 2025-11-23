@@ -9,3 +9,17 @@ class CreateDias < ActiveRecord::Migration[7.2]
     end
   end
 end
+
+#CREATE TABLE "dias" (
+#  "id" BIGSERIAL PRIMARY KEY,
+#  "numero_dia" integer NOT NULL,
+#  "descricao" TEXT,
+#  "roteiro_id" bigint NOT NULL,
+#  "created_at" TIMESTAMP(6) NOT NULL,
+#  "updated_at" TIMESTAMP(6) NOT NULL
+#);
+#
+#ALTER TABLE "dias"
+#ADD CONSTRAINT "fk_rails_roteiro"
+#FOREIGN KEY ("roteiro_id")
+#REFERENCES "roteiros"("id");

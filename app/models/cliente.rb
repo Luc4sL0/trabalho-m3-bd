@@ -4,5 +4,5 @@ class Cliente < ApplicationRecord
   belongs_to :dado_bancario
   accepts_nested_attributes_for :dado_bancario, update_only: true
 
-  has_many :clientes_roteiros, dependent: :destroy
+  has_many :cliente_roteiros, dependent: :destroy
 end
