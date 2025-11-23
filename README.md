@@ -86,7 +86,7 @@ development:
 
 ---
 
-# 🚀 **5. Instalando dependências e criando o banco**
+# **5. Instalando dependências e criando o banco**
 
 Execute:
 
@@ -99,7 +99,7 @@ rails db:seed # Popula a tabela com dados
 
 ---
 
-# ▶️ **6. Rodando o servidor**
+# **6. Rodando o servidor**
 
 ```bash
 rails server
