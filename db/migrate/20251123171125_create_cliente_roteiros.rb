@@ -9,3 +9,22 @@ class CreateClienteRoteiros < ActiveRecord::Migration[7.2]
     end
   end
 end
+
+#CREATE TABLE "cliente_roteiros" (
+#  "id" BIGSERIAL PRIMARY KEY,
+#  "data_compra" timestamp,
+#  "cliente_id" bigint NOT NULL,
+#  "roteiro_id" bigint NOT NULL,
+#  "created_at" timestamp(6) NOT NULL,
+#  "updated_at" timestamp(6) NOT NULL
+#);
+#
+#ALTER TABLE "cliente_roteiros"
+#ADD CONSTRAINT "fk_rails_cliente"
+#FOREIGN KEY ("cliente_id")
+#REFERENCES "clientes" ("id");
+#
+#ALTER TABLE "cliente_roteiros"
+#ADD CONSTRAINT "fk_rails_roteiro"
+#FOREIGN KEY ("roteiro_id")
+#REFERENCES "roteiros" ("id");

@@ -9,3 +9,17 @@ class CreateAtracoes < ActiveRecord::Migration[7.2]
     end
   end
 end
+
+#CREATE TABLE "atracoes" (
+#  "id" BIGSERIAL PRIMARY KEY,
+#  "nome" VARCHAR NOT NULL,
+#  "descricao" VARCHAR,
+#  "localidade_id" bigint NOT NULL,
+#  "created_at" TIMESTAMP(6) NOT NULL,
+#  "updated_at" TIMESTAMP(6) NOT NULL
+#);
+#
+#ALTER TABLE "atracoes"
+#ADD CONSTRAINT "fk_rails_localidade"
+#FOREIGN KEY ("localidade_id")
+#REFERENCES "localidades"("id");
